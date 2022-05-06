@@ -29,7 +29,7 @@ const routes: Routes = [
   },
   {
     path: 'add-to-card',
-    loadChildren: () => import('./pages/add-to-cart/add-to-cart.module').then( m => m.AddToCardPageModule)
+    loadChildren: () => import('./pages/add-to-cart/add-to-cart.module').then( m => m.AddToCartPageModule)
   },
   {
     path: 'add-to-cart',
