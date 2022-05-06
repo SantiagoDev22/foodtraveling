@@ -4,7 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: 'home',
-    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
+    loadChildren: () => import('./pages/home/home.module').then( m => m.HomePageModule)
   },
   {
     path: '',
@@ -29,7 +29,7 @@ const routes: Routes = [
   },
   {
     path: 'add-to-card',
-    loadChildren: () => import('./pages/add-to-card/add-to-card.module').then( m => m.AddToCardPageModule)
+    loadChildren: () => import('./pages/add-to-cart/add-to-cart.module').then( m => m.AddToCardPageModule)
   },
   {
     path: 'add-to-cart',
