@@ -1,10 +1,14 @@
-<ion-header [translucent]="true">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
+</style>
+
+<!-- <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      FoodTraveling
     </ion-title>
   </ion-toolbar>
-</ion-header>
+</ion-header> -->
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
@@ -14,7 +18,19 @@
   </ion-header>
 
   <div id="container">
-    <strong>Listo el Proyecto</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <ion-card class="card-center">
+      <!-- <ion-card-header>
+        <ion-card-title class="card-tittle">Iniciar sesión</ion-card-title>
+      </ion-card-header> -->
+    
+      <ion-card-content class="card-content">
+        <ion-label class="card-label" position="stacked" >Usuario</ion-label>
+        <input class="card-input" type="text" placeholder="User">
+        <ion-label class="card-label">Contraseña</ion-label>
+        <input class="card-input" type="password" placeholder="Password">
+        <ion-button class="card-btn">Iniciar sesión</ion-button>
+        <p style="color: black ;">¿No tienes cuenta? <a style="color: #EE3327 ;" href="">Registrate</a> </p>
+      </ion-card-content>
+    </ion-card>
   </div>
 </ion-content>
