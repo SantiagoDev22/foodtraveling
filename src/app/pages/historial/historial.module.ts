@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { SettingPageRoutingModule } from './setting-routing.module';
+import { HistorialPageRoutingModule } from './historial-routing.module';
 
-import { SettingPage } from './setting.page';
+import { HistorialPage } from './historial.page';
 import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { ComponentsModule } from 'src/app/components/components.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    SettingPageRoutingModule,
+    HistorialPageRoutingModule,
     ComponentsModule
   ],
-  declarations: [SettingPage]
+  declarations: [HistorialPage]
 })
-export class SettingPageModule {}
+export class HistorialPageModule {}

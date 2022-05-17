@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { SettingPageRoutingModule } from './setting-routing.module';
+import { ComprasPageRoutingModule } from './compras-routing.module';
 
-import { SettingPage } from './setting.page';
+import { ComprasPage } from './compras.page';
 import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { ComponentsModule } from 'src/app/components/components.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    SettingPageRoutingModule,
+    ComprasPageRoutingModule,
     ComponentsModule
   ],
-  declarations: [SettingPage]
+  declarations: [ComprasPage]
 })
-export class SettingPageModule {}
+export class ComprasPageModule {}

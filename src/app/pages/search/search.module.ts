@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { SettingPageRoutingModule } from './setting-routing.module';
+import { SearchPageRoutingModule } from './search-routing.module';
 
-import { SettingPage } from './setting.page';
+import { SearchPage } from './search.page';
 import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { ComponentsModule } from 'src/app/components/components.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    SettingPageRoutingModule,
+    SearchPageRoutingModule,
     ComponentsModule
   ],
-  declarations: [SettingPage]
+  declarations: [SearchPage]
 })
-export class SettingPageModule {}
+export class SearchPageModule {}

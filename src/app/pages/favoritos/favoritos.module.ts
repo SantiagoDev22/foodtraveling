@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { SettingPageRoutingModule } from './setting-routing.module';
+import { FavoritosPageRoutingModule } from './favoritos-routing.module';
 
-import { SettingPage } from './setting.page';
+import { FavoritosPage } from './favoritos.page';
 import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { ComponentsModule } from 'src/app/components/components.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    SettingPageRoutingModule,
+    FavoritosPageRoutingModule,
     ComponentsModule
   ],
-  declarations: [SettingPage]
+  declarations: [FavoritosPage]
 })
-export class SettingPageModule {}
+export class FavoritosPageModule {}

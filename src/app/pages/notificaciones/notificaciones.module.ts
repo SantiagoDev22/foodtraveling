@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { SettingPageRoutingModule } from './setting-routing.module';
+import { NotificacionesPageRoutingModule } from './notificaciones-routing.module';
 
-import { SettingPage } from './setting.page';
+import { NotificacionesPage } from './notificaciones.page';
 import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { ComponentsModule } from 'src/app/components/components.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    SettingPageRoutingModule,
+    NotificacionesPageRoutingModule,
     ComponentsModule
   ],
-  declarations: [SettingPage]
+  declarations: [NotificacionesPage]
 })
-export class SettingPageModule {}
+export class NotificacionesPageModule {}
