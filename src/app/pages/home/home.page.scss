@@ -25,3 +25,52 @@
 #container a {
   text-decoration: none;
 }
+
+ion-content{
+  --background: url('/assets/img/pexels-jonathan-borba-2983101.jpg')  no-repeat cover fixed center;
+
+  background: url('/assets/img/pexels-jonathan-borba-2983101.jpg') no-repeat fixed center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.card-tittle{
+  color: black;
+  font-size: 30px;
+}
+
+.card-label{
+  color: black;
+  font-size: 17px;
+}
+
+.card-center{
+  color: black;
+  width:70%;
+  display:block;
+  margin: 0 auto;
+  border-radius: 15px;
+  background-color: rgba(182, 182, 182, 90%);
+  font-family: 'Meera Inimai', sans-serif;
+}
+
+.card-input{
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 5px 5px;
+  margin: 8px 0;
+  display: inline-block;
+}
+
+.card-btn{
+  color: white;
+  --background: #EE3327;
+  font-family: 'Meera Inimai', sans-serif;
+  text-transform: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
