@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
@@ -35,23 +34,10 @@ const routes: Routes = [
   {
     path: 'profile',
     loadChildren: () => import('./pages/profile/profile.module').then( m => m.ProfilePageModule)
-  },  {
-    path: 'search',
-    loadChildren: () => import('./pages/search/search.module').then( m => m.SearchPageModule)
-=======
-import { NgModule } from '@angular/core';
-import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
-
-const routes: Routes = [
-  {
-    path: 'home',
-    loadChildren: () => import('./pages/home/home.module').then( m => m.HomePageModule)
   },
   {
-    path: '',
-    redirectTo: 'home',
-    pathMatch: 'full'
->>>>>>> 176870be6b095d27fad5580e64b0e72ce2f5cf5e
+    path: 'search',
+    loadChildren: () => import('./pages/search/search.module').then( m => m.SearchPageModule)
   },
   {
     path: 'compras',
@@ -70,24 +56,18 @@ const routes: Routes = [
     loadChildren: () => import('./pages/notificaciones/notificaciones.module').then( m => m.NotificacionesPageModule)
   },
   {
-<<<<<<< HEAD
     path: 'historial',
     loadChildren: () => import('./pages/historial/historial.module').then( m => m.HistorialPageModule)
   },
   {
     path: 'categorias',
     loadChildren: () => import('./pages/categorias/categorias.module').then( m => m.CategoriasPageModule)
-=======
-    path: 'add-to-cart',
-    loadChildren: () => import('./pages/add-to-cart/add-to-cart.module').then( m => m.AddToCartPageModule)
->>>>>>> 176870be6b095d27fad5580e64b0e72ce2f5cf5e
   },
   {
     path: 'modal-soporte',
     loadChildren: () => import('./pages/modal-soporte/modal-soporte.module').then( m => m.ModalSoportePageModule)
   },
 
-<<<<<<< HEAD
 ];
 
 @NgModule({
@@ -97,12 +77,3 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-=======
-@NgModule({
-  imports: [
-    RouterModule.forRoot(routes,{preloadingStrategy: PreloadAllModules})
-  ],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }
->>>>>>> 176870be6b095d27fad5580e64b0e72ce2f5cf5e
