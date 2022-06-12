@@ -1,82 +1,3 @@
-<ion-menu contentId="menuHome" menuId="menuHome" side="start" type="overlay">
-  <ion-header mode="md">
-    <ion-toolbar>
-      <ion-buttons slot="end">
-        <ion-avatar style="padding: 5px;">
-          <img src="../assets/spider.jpeg" alt="Usuario"/>
-        </ion-avatar>
-      </ion-buttons>
-      <ion-title>Name Usuario</ion-title>
-    </ion-toolbar>
-  </ion-header>
-  <ion-content >
-    <ion-list>
-      <ion-item [routerLink]="['/dashboard']">
-        <ion-icon slot="start" class="itemMenuIcon" name="home" ></ion-icon>
-        <ion-label>Inicio</ion-label>
-      </ion-item>
-    
-      <ion-item [routerLink]="['/search']">
-        <ion-icon slot="start" class="itemMenuIcon" name="search"></ion-icon>
-        <ion-label>Buscar</ion-label>
-      </ion-item>
-    
-      <ion-item [routerLink]="['/compras']">
-        <ion-icon slot="start" class="itemMenuIcon" name="bag-handle-outline"></ion-icon>
-        <ion-label>Mis Compras</ion-label>
-      </ion-item>
-    
-      <ion-item [routerLink]="['/favoritos']">
-        <ion-icon slot="start" class="itemMenuIcon" name="heart-outline"></ion-icon>
-        <ion-label>Favoritos</ion-label>
-      </ion-item>
-    
-      <ion-item [routerLink]="['/ofertas']">
-        <ion-icon slot="start" class="itemMenuIcon" name="flash-outline"></ion-icon>
-        <ion-label>Ofertas</ion-label>
-      </ion-item>
-    
-      <ion-item [routerLink]="['/notificaciones']">
-        <ion-icon slot="start" class="itemMenuIcon" name="notifications-circle-outline"></ion-icon>
-        <ion-label>Notificaciones</ion-label>
-      </ion-item>
-    
-      <ion-item [routerLink]="['/historial']">
-        <ion-icon slot="start" class="itemMenuIcon" name="time-outline"></ion-icon>
-        <ion-label>Historial</ion-label>
-      </ion-item>
-    
-      <ion-item [routerLink]="['/categorias']">
-        <ion-icon slot="start" class="itemMenuIcon" name="list-outline"></ion-icon>
-        <ion-label>Categorias</ion-label>
-      </ion-item>
-    
-      <ion-item [routerLink]="['/profile']">
-        <ion-icon slot="start" class="itemMenuIcon" name="person-circle-outline"></ion-icon>
-        <ion-label>Mi cuenta</ion-label>
-      </ion-item>
-    </ion-list>
-    <ion-list>
-      <ion-item [routerLink]="['/modal-soporte']">
-        <ion-icon slot="start" class="itemMenuIcon" name="logo-wechat"></ion-icon>
-        <ion-label>Soporte</ion-label>
-      </ion-item>
-    </ion-list>
-    <ion-list>
-      
-    </ion-list>
-
-  </ion-content>
-  <ion-footer>
-    <ion-toolbar>
-      <div>
-        <label for="">Powered by Cointec ® v.1.01.01</label>
-      </div>
-    </ion-toolbar>
-  </ion-footer>
-</ion-menu>
-
-
 <ion-header>
   <ion-toolbar>
     <ion-buttons slot="start">
@@ -109,7 +30,7 @@
       refreshingText="Refreshing...">
     </ion-refresher-content>
   </ion-refresher>
-  <ion-router-outlet id="menuHome"></ion-router-outlet>
+  <ion-router-outlet></ion-router-outlet>
   <ion-grid fixed>
     <ion-row>
       <ion-col size="6">
